@@ -2,7 +2,7 @@
 import HOUSE_1 from '@/assets/img/E01-min.png'
 import HOUSE_2 from '@/assets/img/E04-min.png'
 import HOUSE_3 from '@/assets/img/Ext01-min.png'
-import { Button, buttonVariants } from '../ui/button'
+import { buttonVariants } from '../ui/button'
 import { cn } from '@/lib/utils'
 import Link from 'next/link'
 
