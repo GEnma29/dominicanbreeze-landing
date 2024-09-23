@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, buttonVariants } from '../ui/button'
+import { buttonVariants } from '../ui/button'
 import { cn } from '@/lib/utils'
 import Link from 'next/link'
 

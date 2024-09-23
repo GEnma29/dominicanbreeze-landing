@@ -5,7 +5,7 @@ import { cn } from '@/lib/utils'
 import Link from 'next/link'
 
 export default function DeterminationForm() {
-    const [selectedValue, setSelectedValue] = useState<number | null>(null)
+    const [selectedValue,] = useState<number | null>(null)
 
 
     return (
