@@ -1,6 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle, CardFooter } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Button, buttonVariants } from "@/components/ui/button"
+import { buttonVariants } from "@/components/ui/button"
 import { Plane, Hotel, MapPin, CheckCircle, Info } from "lucide-react"
 import Link from "next/link"
 import { cn } from "@/lib/utils"
@@ -60,7 +60,7 @@ export default function BenefictsSection() {
                         <h3 className="text-xl font-semibold text-gray-900">Ubicación Privilegiada</h3>
                     </div>
                     <p className="text-gray-700">
-                        Descubre por qué nuestra ubicación en el "Jetset" de Punta Cana es inigualable. Experimenta de primera mano el lujo y la exclusividad que te rodearán en tu futura inversión.
+                        Descubre por qué nuestra ubicación en el Jetset de Punta Cana es inigualable. Experimenta de primera mano el lujo y la exclusividad que te rodearán en tu futura inversión.
                     </p>
                 </div>
                 <div className="mt-8 bg-white p-6 rounded-lg shadow-md">
