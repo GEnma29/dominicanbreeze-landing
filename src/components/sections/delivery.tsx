@@ -36,7 +36,7 @@ const Delivery = () => {
             </div>
             <div className="flex  gap-4 justify-center items-center w-full mt-8">
                 <div className="flex mt-4 w-full gap-4 justify-center items-center w-full ">
-                    <Link href={'/'} className={cn(buttonVariants({ variant: 'default' }), 'h-12  w-[135px]')}  >
+                    <Link href={'/prices'} className={cn(buttonVariants({ variant: 'default' }), 'h-12  w-[135px]')}  >
                         Si
                     </Link>
                     <Dialog >

@@ -11,7 +11,7 @@ export default function PaymentsSection() {
             </div>
             <TabsPayment />
             <div className="flex flex-col md:flex-row justify-center items-center gap-4 mt-8">
-                <Link className={cn(buttonVariants({ variant: 'default' }), 'w-[220px] h-12')} href={'/owner'}>
+                <Link className={cn(buttonVariants({ variant: 'default' }), 'w-[220px] h-12')} href={'/example'}>
                     Continuar
                 </Link>
                 <Link className={cn(buttonVariants({ variant: 'secondary' }), 'w-[220px] h-12')} href={'/error'}>

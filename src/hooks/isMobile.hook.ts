@@ -1,7 +1,17 @@
-'use client'
-import { useWindowSize } from "@uidotdev/usehooks";
+import { useState, useCallback } from 'react';
 
-export const useIsMobile = () => {
-  const { width } = useWindowSize();
-  return width ? width < 768 : false;
-};
+function useExecuteOnSecondCall(callback: () => void) {
+  const [hasBeenCalled, setHasBeenCalled] = useState(false);
+
+  const execute = useCallback(() => {
+    if (hasBeenCalled) {
+      callback();
+    } else {
+      setHasBeenCalled(true);
+    }
+  }, [callback, hasBeenCalled]);
+
+  return execute;
+}
+
+export default useExecuteOnSecondCall;

@@ -13,8 +13,8 @@ const start: React.FC<{
     return (
         <div className="flex mb-3 flex-col justify-center items-center rounded-lg px-4 py-5 sm:p-6">
             <h1 className="text-center leading-10 text-3xl font-semibold leading-6 text-emerald-900">{title}</h1>
-            <h3 className="mt-3 text-2xl font-semibold leading-6 text-emerald-900">{subtitle}</h3>
-            <div className="mt-2 max-w-xl text-sm text-gray-500">
+            <h3 className="mt-6 text-center lg:mt-4 text-2xl font-semibold leading-6 text-emerald-900">{subtitle}</h3>
+            <div className="mt-2 text-center max-w-xl text-sm text-gray-500">
                 <p className='flex font-semibold text-lg text-center mt-4'>
                     {content}
                 </p>
