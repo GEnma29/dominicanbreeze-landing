@@ -1,8 +1,9 @@
+import OwnerSection from '@/components/sections/owner'
 import React from 'react'
 
 const OwnerPage = () => {
     return (
-        <div>OwnerPage</div>
+        <OwnerSection />
     )
 }
 
