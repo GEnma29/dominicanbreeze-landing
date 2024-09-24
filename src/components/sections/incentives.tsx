@@ -6,39 +6,6 @@ import { cn } from "@/lib/utils"
 import { buttonVariants } from "../ui/button"
 import Link from "next/link"
 
-const perks = [
-    {
-        name: 'Experencia',
-        imageSrc: 'https://tailwindui.com/img/ecommerce/icons/icon-delivery-light.svg',
-        description:
-            "20 años de experiencia en construcción de viviendas de lujo",
-    },
-    {
-        name: 'Trayactoria',
-        imageSrc: 'https://tailwindui.com/img/ecommerce/icons/icon-warranty-light.svg',
-        description:
-            "Desarrollador y dueño del primer centro comercial de Punta Cana donde albergan prestigiosas marcas tales como Caribbean Cinemas, IKEA, Psycho Bunny y otras",
-    },
-    {
-        name: 'Reputacion',
-        imageSrc: 'https://tailwindui.com/img/ecommerce/icons/icon-returns-light.svg',
-        description:
-            'Reputación intachable en puntualidad en fechas de entrega',
-    },
-    {
-        name: 'Calidad',
-        imageSrc: 'https://tailwindui.com/img/ecommerce/icons/icon-planet-light.svg',
-        description:
-            "Entrega de unidades con los acabados de la más alta calidad",
-    },
-    {
-        name: 'Confianza',
-        imageSrc: 'https://tailwindui.com/img/ecommerce/icons/icon-planet-light.svg',
-        description:
-            "Un nombre de confianza para compradores locales e internacionales",
-    },
-]
-
 
 export default function InsectiveSeption() {
     return (
