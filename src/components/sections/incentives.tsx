@@ -1,7 +1,6 @@
 
 import { Card, CardContent, CardHeader, CardTitle, CardFooter } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Button } from "@/components/ui/button"
 import { CheckCircle, Building, Clock, Star, MapPin } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { buttonVariants } from "../ui/button"

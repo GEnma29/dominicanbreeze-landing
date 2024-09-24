@@ -1,5 +1,5 @@
 'use client'
-import React, { use } from 'react'
+import React from 'react'
 import { Table, TableBody, TableCaption, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table'
 import { useWindowSize } from "@uidotdev/usehooks";
 
