@@ -50,7 +50,7 @@ export default function Description() {
                             </div>
                         </div>
 
-                        <ul className="mt-10 space-y-5">
+                        <ul className="mt-10 space-y-5 list-disc text-gray-500">
                             {features.map((feature) => (
                                 <li key={feature.name}>
                                     <dt className="text-sm font-medium text-gray-900">{feature.name}</dt>

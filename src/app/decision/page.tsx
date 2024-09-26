@@ -12,15 +12,15 @@ const Options = [
 
 const DecisionPage = () => {
     return (
-        <div className="flex mb-3 flex-col justify-center items-center rounded-lg px-4 py-5 sm:p-6">
+        <div className="flex mb-3 bg-white max-w-7xl flex-col justify-center items-center rounded-lg px-4 py-5 sm:p-6">
             <h1 className="text-center leading-10 text-3xl font-semibold leading-6 text-emerald-900">LA DECISIÓN DE SELECCIÓN</h1>
             <h3 className=" text-center mt-6 mb-4 text-2xl font-semibold leading-6 text-emerald-900">Si luego de la presentación privada, concluyeras que este es el proyecto en donde deseas invertir ¿quién tomaría la decisión final de separar tu unidad?</h3>
-            <div className="space-y-5">
+            <div className=" flex flex-col w-full space-y-5">
                 {Options.map((option) => {
                     return (
                         <a
                             href={option.value === '0%' ? '/error' : '/compromise'}
-                            key={option.value} className="relative border-solid rounded-lg border-2 border-sky-200  p-4  flex items-start">
+                            key={option.value} className="relative border-solid rounded-lg border-2 border-sky-200  p-4  flex items-start hover:bg-emerald-50">
                             <div className="flex h-6 items-center">
                                 <Checkbox id="terms1" name="terms1" />
                                 <div className="ml-3 text-sm leading-6">

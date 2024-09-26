@@ -2,7 +2,7 @@ import React from 'react'
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { CheckCircle, Award, MapPin } from "lucide-react"
-import Jose from '@/assets/img/jose-landing.png'
+import JoseBg from '@/assets/img/jose-bg-landing.png'
 import { cn } from '@/lib/utils'
 import { buttonVariants } from '../ui/button'
 import Link from 'next/link'
@@ -16,8 +16,8 @@ const OwnerSection = () => {
                     <div className="md:flex">
                         <div className="md:w-1/3 bg-emerald-600 p-6 flex items-center justify-center">
                             <img
-                                className="rounded-full  border-4 border-white shadow-lg w-64 h-86  object-cover"
-                                src={Jose.src}
+                                className="rounded-full  border-4 border-white shadow-lg w-64 h-[400px]  object-cover"
+                                src={JoseBg.src}
                                 alt="Jose"
                             />
                         </div>

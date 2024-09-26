@@ -5,7 +5,8 @@ import { CheckCircle, Building, Clock, Star, MapPin } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { buttonVariants } from "../ui/button"
 import Link from "next/link"
-
+import MasterPlan from '@/assets/img/master-plan.png'
+import Image from "next/image"
 
 export default function InsectiveSeption() {
     return (
@@ -13,10 +14,12 @@ export default function InsectiveSeption() {
             <div className="max-w-7xl mx-auto">
                 <Card className="overflow-hidden shadow-xl">
                     <div className="md:flex">
-                        <div className="md:w-1/3 bg-green-600 p-6 flex items-center justify-center">
-                            <img
-                                className="rounded-lg border-4 border-white shadow-lg w-full h-auto object-cover"
-                                src="/placeholder.svg?height=400&width=300"
+                        <div className="md:w-1/3 py-32 lg:py-0 bg-green-600 p-6 flex items-center justify-center">
+                            <Image
+                                className="rounded-lg  w-full rotate-90 "
+                                sizes="(max-width: 768px) 100vw, 50vw"
+                                objectFit="cover"
+                                src={MasterPlan}
                                 alt="Luxury Development in Punta Cana"
                             />
                         </div>

@@ -6,7 +6,7 @@ import { cn } from '@/lib/utils'
 
 const ConfirmSection = () => {
     return (
-        <div className="flex mb-3 flex-col justify-center items-center rounded-lg px-4 py-5 sm:p-6">
+        <div className="flex mb-3 bg-white flex-col justify-center items-center rounded-lg px-4 py-5 sm:p-6">
             <h1 className="text-center leading-10 text-3xl font-semibold leading-6 text-emerald-900">POR FAVOR, LEE DETENIDAMENTE </h1>
             <div className="flex  flex-col mt-2 justify-center items-center max-w-7xl text-sm text-gray-500">
                 <p className='flex font-semibold text-lg text-center mt-4'>

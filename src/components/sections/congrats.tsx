@@ -4,9 +4,9 @@ import Link from 'next/link'
 import { buttonVariants } from '../ui/button'
 const CongratsSection = () => {
     return (
-        <div className="flex mb-3 flex-col justify-center items-center rounded-lg px-4 py-5 sm:p-6">
-            <h1 className="text-center leading-10 text-3xl font-semibold leading-6 text-emerald-900">¡FELICITACIONES!</h1>
-            <h3 className="mt-3 text-2xl font-semibold leading-6 text-emerald-900">HAS CUALIFICADO PARA LA PRESENTACIÓN PRIVADA CON NUESTRO BROKER</h3>
+        <div className="flex mb-3 bg-white flex-col justify-center items-center rounded-lg px-4 py-5 sm:p-6">
+            <h1 className="text-center leading-10 text-3xl font-semibold leading-6 text-emerald-900">🎊 ¡FELICITACIONES! 🎊</h1>
+            <h3 className="mt-3  py-2 text-center text-xl lg:text-2xl font-semibold leading-6 text-emerald-900">HAS CUALIFICADO PARA LA PRESENTACIÓN PRIVADA CON NUESTRO BROKER</h3>
             <div className="mt-2 max-w-xl text-sm text-gray-500">
                 <p className='flex font-semibold text-lg text-center mt-4'>
                     Ya solo queda este gran paso para tu inversión en la República Dominicana

@@ -9,7 +9,7 @@ const Options = [
 ]
 const CompromiseSection = () => {
     return (
-        <div className="flex mb-3 flex-col justify-center items-center rounded-lg px-4 py-5 sm:p-6">
+        <div className="flex mb-3 bg-white flex-col justify-center items-center rounded-lg px-4 py-5 sm:p-6">
             <h1 className="text-center leading-10 text-3xl font-semibold leading-6 text-emerald-900">EL TIEMPO ES VALIOSO PARA TODOS
             </h1>
             <div className="mt-2 max-w-7xl text-sm text-gray-500">
@@ -27,7 +27,7 @@ const CompromiseSection = () => {
                         {Options.map((option) => (
                             <Link
                                 href={option.value === '100%' ? '/duration' : '/error'}
-                                key={option.value} className="relative flex items-center gap-3 border-solid rounded-lg border-2 border-sky-200  p-4  flex items-start">
+                                key={option.value} className="relative flex items-center gap-3 border-solid rounded-lg border-2 border-sky-200  p-4  flex items-start  hover:bg-emerald-50">
                                 <Checkbox id={option.value} name="compromise" value={option.value} />
                                 <Label className='font-semibold' htmlFor={option.value}>{option.label}</Label>
                             </Link>
