@@ -36,6 +36,17 @@ const config: Config = {
   				DEFAULT: 'hsl(var(--accent))',
   				foreground: 'hsl(var(--accent-foreground))'
   			},
+			  emerald:{
+				50: '#f0fdf4',
+				100: '#dcfce7',
+				200: '#bbf7d0',
+				300: '#86efac',
+				400: '#4ade80',
+				500: '#22c55e',
+				600: '#0f4243',
+				700: '#0f4243',
+				800: '#0f4243',
+			},
   			destructive: {
   				DEFAULT: 'hsl(var(--destructive))',
   				foreground: 'hsl(var(--destructive-foreground))'

@@ -3,11 +3,12 @@ import { Button } from "@/components/ui/button"
 import { cn } from '@/lib/utils'
 import Link from 'next/link'
 import Image from 'next/image'
-
+import Logo from '@/assets/img/LOGO-Dominican-Breeze.png'
 interface StartProps {
     href: string
     title: string
     content: string
+    question?: string
     greeting?: string;
     subtitle: string
     image?: {
@@ -26,9 +27,10 @@ const Start: React.FC<StartProps> = ({
     title,
     href,
     content,
+    question,
     image,
     greeting,
-    primaryButtonText = 'Si',
+    primaryButtonText = 'Sí',
     secondaryButtonText = 'No',
     onSecondaryClick,
     isExternal = false,
@@ -70,6 +72,9 @@ const Start: React.FC<StartProps> = ({
                 <p className='text-lg text-center text-lg font-semibold text-gray-700 mb-6'>
                     {content}
                 </p>
+                <p className='text-lg text-center text-lg font-semibold text-gray-700 mb-6'>
+                    {question}
+                </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center items-center w-full">
                     <Button asChild className="w-full sm:w-[135px]">
                         <Link href={href} passHref={isExternal}>
@@ -92,6 +97,10 @@ const Start: React.FC<StartProps> = ({
                         </Button>
                     )}
                 </div>
+                <div className='flex  w-full jutify-start items-center mt-6'>
+                    <Image src={Logo} alt="arrow-right" width={160} height={120} />
+                </div>
+
             </div>
 
             {image && (imagePosition === 'right' || imagePosition === 'bottom') && (
