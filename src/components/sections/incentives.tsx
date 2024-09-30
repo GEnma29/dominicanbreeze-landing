@@ -2,11 +2,102 @@
 import { Card, CardContent, CardHeader, CardTitle, CardFooter } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { CheckCircle, Building, Clock, Star, MapPin } from "lucide-react"
+import {
+    Carousel,
+    CarouselContent,
+    CarouselItem,
+    CarouselNext,
+    CarouselPrevious,
+} from "@/components/ui/carousel"
 import { cn } from "@/lib/utils"
 import { buttonVariants } from "../ui/button"
 import Link from "next/link"
 import MasterPlan from '@/assets/img/master-plan.png'
 import Image from "next/image"
+import Logo from '@/assets/img/LOGO-Dominican-Breeze.png'
+
+
+import Image1 from '@/assets/img/image1.png'
+import Image2 from '@/assets/img/image2.png'
+import Image3 from '@/assets/img/image3.png'
+import Image4 from '@/assets/img/image4.png'
+import Image5 from '@/assets/img/image5.png'
+
+const ImageCollage = () => {
+    return (
+        <Carousel className="" >
+            <CarouselContent className=" lg:grid lg:grid-cols-2 lg:grid-rows-2 lg:gap-2 h-full">
+                <CarouselItem className="flex rounded-lg">
+                    <Image
+                        className="w-full h-full rounded-lg object-cover"
+                        src={Image4}
+                        objectFit="cover"
+                        alt="Luxury Development 4"
+                    />
+                </CarouselItem>
+                <CarouselItem>
+                    <Image
+                        className="w-full rounded-lg h-full object-cover"
+                        src={Image1}
+                        objectFit="cover"
+                        alt="Luxury Development 1"
+                    />
+                </CarouselItem>
+                <CarouselItem>
+                    <Image
+                        objectFit="cover"
+                        className="w-full h-full rounded-lg object-cover"
+                        src={Image2}
+                        alt="Luxury Development 2"
+                    />
+                </CarouselItem>
+                <CarouselItem>
+                    <Image
+                        className="w-full rounded-lg h-full object-cover"
+                        src={Image3}
+                        objectFit="cover"
+                        alt="Luxury Development 3"
+                    />
+
+                </CarouselItem>
+                <CarouselItem>
+                    <Image
+                        className="w-full h-full rounded-lg object-cover"
+                        src={Image5}
+                        objectFit="cover"
+                        alt="Luxury Development 5"
+                    />
+                </CarouselItem>
+            </CarouselContent>
+            <CarouselPrevious />
+            <CarouselNext />
+        </Carousel >
+
+        // <div className="grid grid-cols-2 grid-rows-2 gap-2 h-full">
+
+        //     {/* <Image
+        //         className="w-full h-full object-cover"
+        //         src={Image1}
+        //         alt="Luxury Development 1"
+        //     />
+        //     <Image
+        //         className="w-full h-full object-cover"
+        //         src={Image2}
+        //         alt="Luxury Development 2"
+        //     />
+        //     <Image
+        //         className="w-full h-full object-cover"
+        //         src={Image3}
+        //         alt="Luxury Development 3"
+        //     />
+        //     <Image
+        //         className="w-full h-full object-cover"
+        //         src={Image4}
+        //         alt="Luxury Development 4"
+        //     /> */}
+        // </div>
+    )
+}
 
 export default function InsectiveSeption() {
     return (
@@ -14,21 +105,30 @@ export default function InsectiveSeption() {
             <div className="max-w-7xl mx-auto">
                 <Card className="overflow-hidden shadow-xl">
                     <div className="md:flex">
-                        <div className="md:w-1/3 py-32 lg:py-0 bg-green-600 p-6 flex items-center justify-center">
-                            <Image
+                        <div className="md:w-1/3  lg:py-0 bg-emerald-600 p-16 flex flex-col items-center justify-center">
+                            {/* <Image
                                 className="rounded-lg  w-full rotate-90 "
                                 sizes="(max-width: 768px) 100vw, 50vw"
                                 objectFit="cover"
                                 src={MasterPlan}
                                 alt="Luxury Development in Punta Cana"
+                            /> */}
+                            <Image
+                                className="rounded-lg  w-full py-6 "
+                                sizes="(max-width: 768px) 100vw, 50vw"
+                                objectFit="cover"
+                                src={Logo}
+                                alt="Luxury Development in Punta Cana"
                             />
+
+                            <ImageCollage />
                         </div>
                         <div className="md:w-2/3 p-8">
                             <CardHeader>
-                                <CardTitle className="text-3xl font-bold text-gray-900 mb-2">
+                                <CardTitle className="text-3xl text-center font-bold text-gray-900 mb-2">
                                     El Desarrollador más completo en la República Dominicana
                                 </CardTitle>
-                                <Badge className="bg-green-600 text-white">20 años de experiencia</Badge>
+                                <Badge className="bg-emerald-600 text-white">20 años de experiencia</Badge>
                             </CardHeader>
                             <CardContent>
                                 <p className="text-gray-700 mb-4">
@@ -50,15 +150,23 @@ export default function InsectiveSeption() {
                                         </li>
                                     ))}
                                 </ul>
-                                <p className="mt-6 text-gray-700 font-semibold">
+                                <p className="mt-6 text-center text-gray-700 font-semibold">
                                     Estas cualidades hacen de tu desarrollador una empresa confiable basada en hechos.
                                 </p>
-                                <p className="mt-4 text-gray-700">
+                                <p className="mt-4 text-center text-gray-700">
                                     Seguramente ya quieres saber quién es.
                                 </p>
-                                <p className="mt-4 text-gray-700">
+                                <p className="mt-4 text-center text-gray-700">
                                     Nuestro broker te dará todos los detalles en la presentación privada en la fecha que selecciones.
                                 </p>
+                                <div className="mt-8 text-center">
+                                    <Link className={cn(buttonVariants({ variant: 'default' }), 'w-[220px] h-12')} href={'/owner'}>
+                                        Deseo continuar
+                                    </Link>
+                                    <Link className={cn(buttonVariants({ variant: 'secondary' }), 'w-[220px] h-12')} href={'/error'}>
+                                        No deseeo continuar
+                                    </Link>
+                                </div>
                             </CardContent>
                         </div>
                     </div>
@@ -73,7 +181,7 @@ export default function InsectiveSeption() {
                         </div>
                         <div className="flex items-center mb-2 sm:mb-0">
                             <Clock className="h-5 w-5 text-yellow-500 mr-2" />
-                            <span className="text-gray-700">Puntualidad en entregas</span>
+                            <span className="text-gray-700">Seguridad de Inversión</span>
                         </div>
                         <div className="flex items-center">
                             <Star className="h-5 w-5 text-yellow-500 mr-2" />
@@ -81,11 +189,6 @@ export default function InsectiveSeption() {
                         </div>
                     </CardFooter>
                 </Card>
-                <div className="mt-8 text-center">
-                    <Link className={cn(buttonVariants({ variant: 'default' }), 'w-[220px] h-12')} href={'/owner'}>
-                        Deseo continuar
-                    </Link>
-                </div>
             </div>
         </div>
     )

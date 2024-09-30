@@ -4,7 +4,8 @@ import { buttonVariants } from "@/components/ui/button"
 import { Plane, Hotel, MapPin, CheckCircle, Info } from "lucide-react"
 import Link from "next/link"
 import { cn } from "@/lib/utils"
-
+import Image from "next/image"
+import Image1 from '@/assets/img/flyBuy.png'
 export default function BenefictsSection() {
     return (
         <div className="bg-gradient-to-b from-emerald-50 to-white min-h-screen py-16 px-4 sm:px-6 lg:px-8">
@@ -25,6 +26,9 @@ export default function BenefictsSection() {
                         </div>
                     </CardHeader>
                     <CardContent className="p-8">
+                        <div className="flex flex-col justify-center items-center">
+                            <Image className='rounded-lg' src={Image1} alt="Luxury Development in Punta Cana" width={200} height={200} />
+                        </div>
                         <h2 className="text-2xl font-bold text-center text-gray-900 mb-6">
                             ¡VIAJA Y CONOCE!
                         </h2>

@@ -19,7 +19,7 @@ const ClientFromPage: React.FC = () => {
                 ref={iframeRef}
                 onLoad={handleButtonClick}
                 className="w-[400px] h-[700px]"
-                src="https://pages.wiseagent.com/pages/?id=1930B3B6-1C55-4796-A885-29A6A7F0D5EF"
+                src="https://pages.wiseagent.com/pages/?id=BFB343EC-F5B7-4209-B01C-95709E8F6654"
                 title="Contenido externo"
             />
         </div>

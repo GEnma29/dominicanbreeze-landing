@@ -1,6 +1,6 @@
 import React from 'react'
 import Start from '@/components/sections/start'
-import DeliveryImage from '@/assets/img/delivery.jpg'
+import DeliveryImage from '@/assets/img/delivery.png'
 const DeliveryPage = () => {
     return (
         <Start

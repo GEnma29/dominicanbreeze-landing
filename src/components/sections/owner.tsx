@@ -3,6 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { CheckCircle, Award, MapPin } from "lucide-react"
 import JoseBg from '@/assets/img/jose-bg-landing.png'
+import Logo from '@/assets/img/LOGO-Dominican-Breeze.png'
 import { cn } from '@/lib/utils'
 import { buttonVariants } from '../ui/button'
 import Link from 'next/link'
@@ -15,11 +16,21 @@ const OwnerSection = () => {
                 <Card className="overflow-hidden shadow-xl">
                     <div className="md:flex">
                         <div className="md:w-1/3 bg-emerald-600 p-6 flex items-center justify-center">
-                            <img
-                                className="rounded-full  border-4 border-white shadow-lg w-64 h-[400px]  object-cover"
-                                src={JoseBg.src}
-                                alt="Jose"
-                            />
+                            <div className='flex flex-col justify-center items-center  mt-4'>
+                                <img
+                                    className="rounded-full  border-4 border-white shadow-lg w-full h-[400px]  object-cover"
+                                    src={JoseBg.src}
+                                    alt="Jose"
+                                />
+                                <img
+                                    className="py-4"
+                                    src={Logo.src}
+                                    alt="Jose"
+                                />
+
+                            </div>
+
+
                         </div>
                         <div className="md:w-2/3 p-8">
                             <CardHeader>
@@ -49,7 +60,10 @@ const OwnerSection = () => {
                             </CardContent>
                             <div className="flex mt-6 w-full justify-center ">
                                 <Link href={'/sinergy'} className={cn(buttonVariants({ variant: 'default' }), 'w-[220px] h-12')}>
-                                    Continuar
+                                    Deseo continuar
+                                </Link>
+                                <Link href={'/error'} className={cn(buttonVariants({ variant: 'secondary' }), 'w-[220px] h-12')}>
+                                    No continuar
                                 </Link>
                             </div>
                         </div>

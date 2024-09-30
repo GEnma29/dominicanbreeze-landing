@@ -61,7 +61,7 @@ const Start: React.FC<StartProps> = ({
                 image ? "w-full md:w-1/2" : "w-full"
             )}>
                 <div className="mx-auto max-w-4xl text-center">
-                    <h2 className="text-sm font-semibold leading-7 text-emerald-500">{greeting}</h2>
+                    <h2 className="text-sm font-semibold leading-7 text-emerald-600">{greeting}</h2>
                     <p className="mt-2 text-center text-4xl font-bold tracking-tight text-emerald-600 sm:text-2xl">
                         {title}
                     </p>
@@ -97,7 +97,7 @@ const Start: React.FC<StartProps> = ({
                         </Button>
                     )}
                 </div>
-                <div className='flex  w-full jutify-start items-center mt-6'>
+                <div className='flex bg-emerald-600 p-4 rounded-lg w-full jutify-start items-center mt-6'>
                     <Image src={Logo} alt="arrow-right" width={160} height={120} />
                 </div>
 
