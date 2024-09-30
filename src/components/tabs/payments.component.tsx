@@ -16,8 +16,8 @@ import { DollarSign, Calendar, Building, Info } from "lucide-react"
 export function TabsPayment() {
     return (
         <Tabs defaultValue="cash" className="w-full lg:w-[600px]">
-            <TabsList className="grid w-full grid-cols-2">
-                <TabsTrigger value="cash">Al Contado</TabsTrigger>
+            <TabsList className="grid gap-2 py-12 w-full grid-cols-2">
+                <TabsTrigger value="cash">Pago al Contado</TabsTrigger>
                 <TabsTrigger value="finance">Financiamiento</TabsTrigger>
             </TabsList>
             <TabsContent value="cash">

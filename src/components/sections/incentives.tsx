@@ -12,7 +12,6 @@ import {
 import { cn } from "@/lib/utils"
 import { buttonVariants } from "../ui/button"
 import Link from "next/link"
-import MasterPlan from '@/assets/img/master-plan.png'
 import Image from "next/image"
 import Logo from '@/assets/img/LOGO-Dominican-Breeze.png'
 
