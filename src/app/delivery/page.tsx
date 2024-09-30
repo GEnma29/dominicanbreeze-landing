@@ -4,10 +4,11 @@ import DeliveryImage from '@/assets/img/delivery.png'
 const DeliveryPage = () => {
     return (
         <Start
-            greeting='¡FELICIDADES!'
+            greeting=''
             title='LA FECHA DE ENTREGA DE TU UNIDAD ES UN MOMENTO MUY ESPERADO'
-            subtitle='A SUMA DE 53 AÑOS DE EXCELENCIA Y REPUTACIÓN A TU FAVOR'
-            content='Credibilidad, prestigio y seguridad de inversión para tu beneficio como comprador élite de este proyecto de lujo Porque desde ahora estás en las manos de dos pilares de la industria inmobiliaria.'
+            subtitle=''
+            content='A diferencia de otros desarrolladores, el nuestro, dentro de su plan de desarrollo, ya tiene unidades listas para entrega, haciendo de este proyecto único en su clase.'
+            question='¿Deseas continuar?'
             href='/prices'
             image={{
                 src: DeliveryImage.src,

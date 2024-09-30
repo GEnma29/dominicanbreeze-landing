@@ -158,8 +158,8 @@ export default function InsectiveSeption() {
                                 <p className="mt-4 text-center text-gray-700">
                                     Nuestro broker te dará todos los detalles en la presentación privada en la fecha que selecciones.
                                 </p>
-                                <div className="mt-8 text-center">
-                                    <Link className={cn(buttonVariants({ variant: 'default' }), 'w-[220px] h-12')} href={'/owner'}>
+                                <div className="mt-8 gap-2 text-center">
+                                    <Link className={cn(buttonVariants({ variant: 'default' }), 'w-[220px] h-12 mb-3 lg:mb-0')} href={'/owner'}>
                                         Deseo continuar
                                     </Link>
                                     <Link className={cn(buttonVariants({ variant: 'secondary' }), 'w-[220px] h-12')} href={'/error'}>

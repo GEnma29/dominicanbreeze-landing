@@ -12,7 +12,7 @@ const Options = [
 const Prices = () => {
     return (
         <div className="flex flex-col w-[90%] lg:flex-row justify-center items-center rounded-lg px-4 py-5 sm:p-6 bg-gray-50 shadow-md">
-            <div className="flex flex-col justify-center items-center p-4">
+            <div className="flex w-full h-full flex-col justify-center items-center p-4">
                 <h2 className="text-center text-xl leading-10 lg:text-3xl font-semibold leading-6 text-emerald-900">
                     TÚ SELECCIONAS EL PRECIO A TU MEJOR CONVENIENCIA
                 </h2>
@@ -46,8 +46,8 @@ const Prices = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex w-full justify-center items-center w-full ">
-                <Image className="rounded-lg" src={Price} alt="Luxury Development in Punta Cana" width={400} height={400} />
+            <div className="flex w-full h-full justify-center items-center ">
+                <Image className="rounded-lg" src={Price} alt="Luxury Development in Punta Cana" width={600} height={600} />
             </div>
 
         </div >

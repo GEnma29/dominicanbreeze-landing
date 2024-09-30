@@ -1,9 +1,11 @@
 import TableTax from '@/components/table/table-taxt.component'
 import { buttonVariants } from '@/components/ui/button'
 import { cn } from '@/lib/utils'
+import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-
+import Tax1 from '@/assets/img/tax1.png'
+import Tax2 from '@/assets/img/tax2.png'
 const TaxPage = () => {
     return (
         <div className='bg-white px-4 py-6 sm:px-6 lg:px-8 rounded-lg'>
@@ -36,14 +38,22 @@ const TaxPage = () => {
             </div>
             <TableTax />
 
-            <div className='flex flex-col justify-center items-center mt-8'>
-                <p className='text-sm text-gray-500 mt-4'>
-                    Nuestro Broker te revelará el ahorro adicional en la presentación privada para que veas tu precio final proyectado.
-                </p>
+            <div className='flex justify-around items-center mt-8'>
+                <div className='flex flex-col justify-center items-center'>
+                    <Image src={Tax1} alt="Chart" width={200} height={200} />
+                </div>
+                <div className='flex flex-col justify-center items-center'>
+                    <p className='text-sm text-gray-500 mt-4'>
+                        Nuestro Broker te revelará el ahorro adicional en la presentación privada para que veas tu precio final proyectado.
+                    </p>
 
-                <Link href={'/benefits'} className={cn(buttonVariants({ variant: 'default' }), 'w-[220px] mt-4 h-12')}>
-                    Continuar
-                </Link>
+                    <Link href={'/benefits'} className={cn(buttonVariants({ variant: 'default' }), 'w-[220px] mt-4 h-12')}>
+                        Continuar
+                    </Link>
+                </div>
+                <div className='flex flex-col justify-center items-center'>
+                    <Image src={Tax2} alt="Chart" width={200} height={200} />
+                </div>
             </div>
         </div>
     )

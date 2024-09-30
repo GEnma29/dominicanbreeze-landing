@@ -18,8 +18,8 @@ const Timing = () => {
                 <Image
                     src={Calendary}
                     alt="Timing"
-                    width={300}
-                    height={300}
+                    width={600}
+                    height={600}
                     className='rounded-lg'
                 />
             </div>
