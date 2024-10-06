@@ -22,11 +22,12 @@ const OwnerSection = () => {
                                     src={JoseBg.src}
                                     alt="Jose"
                                 />
-                                <img
+                                <h1 className=' mt-4 text-center text-[#e0ad10] text-4xl font-bold'>José Antonio Quiñones</h1>
+                                {/* <img
                                     className="py-4"
                                     src={Logo.src}
                                     alt="Jose"
-                                />
+                                /> */}
 
                             </div>
 
@@ -34,7 +35,7 @@ const OwnerSection = () => {
                         </div>
                         <div className="md:w-2/3 p-8">
                             <CardHeader>
-                                <CardTitle className="text-3xl font-bold text-gray-900 mb-2">
+                                <CardTitle className="text-3xl text-center font-bold text-gray-900 mb-2">
                                     ¿Sabías que nuestro Broker/Owner también es original de Puerto Rico, pero residente de la República Dominicana?
                                 </CardTitle>
                                 <Badge className="bg-emerald-600 text-white">33 años de experiencia</Badge>

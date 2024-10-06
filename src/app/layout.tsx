@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import Logo from "@/assets/img/dominican-breeze-logo-top.png";
+import Header from "@/components/header";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -32,7 +33,8 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <main className="flex flex-col bg-gradient-to-t min-h-screen justify-center items-center from-emerald-50 to-blue-100">
+        <main className="flex flex-col bg-emerald-600 min-h-screen justify-center items-center ">
+          <Header />
           {children}
         </main>
       </body>

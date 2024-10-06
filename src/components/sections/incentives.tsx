@@ -21,6 +21,7 @@ import Image2 from '@/assets/img/image2.png'
 import Image3 from '@/assets/img/image3.png'
 import Image4 from '@/assets/img/image4.png'
 import Image5 from '@/assets/img/image5.png'
+import Image6 from '@/assets/img/image6.png'
 
 const ImageCollage = () => {
     return (
@@ -66,6 +67,16 @@ const ImageCollage = () => {
                         objectFit="cover"
                         alt="Luxury Development 5"
                     />
+
+                </CarouselItem>
+                <CarouselItem>
+                    <Image
+                        className="w-full h-full rounded-lg object-cover"
+                        src={Image6}
+                        objectFit="cover"
+                        alt="Luxury Development 6"
+                    />
+
                 </CarouselItem>
             </CarouselContent>
             <CarouselPrevious />
@@ -112,13 +123,13 @@ export default function InsectiveSeption() {
                                 src={MasterPlan}
                                 alt="Luxury Development in Punta Cana"
                             /> */}
-                            <Image
+                            {/* <Image
                                 className="rounded-lg  w-full py-6 "
                                 sizes="(max-width: 768px) 100vw, 50vw"
                                 objectFit="cover"
                                 src={Logo}
                                 alt="Luxury Development in Punta Cana"
-                            />
+                            /> */}
 
                             <ImageCollage />
                         </div>

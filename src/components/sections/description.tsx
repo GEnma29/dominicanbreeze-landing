@@ -36,7 +36,7 @@ export default function Description() {
                     <div>
                         <div className="border-b border-gray-200 pb-10">
                             {/* <h2 className="font-medium text-gray-500">Con la ubicación más céntrica y segura de toda la región con unidades listas para entrega</h2> */}
-                            <p className="mt-2 text-3xl font-bold tracking-tight text-emerald-800 sm:text-4xl">Un exclusivo proyecto de villas de lujo en “Downtown Punta Cana”.</p>
+                            <p className="mt-2 text-center text-3xl font-bold tracking-tight text-emerald-800 sm:text-4xl">Un exclusivo proyecto de villas de lujo en “Downtown Punta Cana”.</p>
                         </div>
 
                         <ul className="mt-10 space-y-5  text-gray-500">

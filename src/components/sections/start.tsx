@@ -76,7 +76,7 @@ const Start: React.FC<StartProps> = ({
                     {question}
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center items-center w-full">
-                    <Button asChild className="w-full sm:w-[135px]">
+                    <Button asChild className="w-full h-12 sm:w-[135px]">
                         <Link href={href} passHref={isExternal}>
                             {primaryButtonText}
                         </Link>
@@ -85,20 +85,17 @@ const Start: React.FC<StartProps> = ({
                         <Button
                             onClick={onSecondaryClick}
                             variant="secondary"
-                            className="w-full sm:w-[135px]"
+                            className="w-full h-12 sm:w-[135px]"
                         >
                             {secondaryButtonText}
                         </Button>
                     ) : (
-                        <Button asChild variant="secondary" className="w-full sm:w-[135px]">
+                        <Button asChild variant="secondary" className="w-full h-12 sm:w-[135px]">
                             <Link href="/error">
                                 {secondaryButtonText}
                             </Link>
                         </Button>
                     )}
-                </div>
-                <div className='flex bg-emerald-600 p-4 rounded-lg w-full jutify-start items-center mt-6'>
-                    <Image src={Logo} alt="arrow-right" width={160} height={120} />
                 </div>
 
             </div>
