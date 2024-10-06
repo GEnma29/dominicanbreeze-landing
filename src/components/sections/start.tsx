@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button"
 import { cn } from '@/lib/utils'
 import Link from 'next/link'
 import Image from 'next/image'
-import Logo from '@/assets/img/LOGO-Dominican-Breeze.png'
+
 interface StartProps {
     href: string
     title: string

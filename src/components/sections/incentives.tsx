@@ -13,7 +13,6 @@ import { cn } from "@/lib/utils"
 import { buttonVariants } from "../ui/button"
 import Link from "next/link"
 import Image from "next/image"
-import Logo from '@/assets/img/LOGO-Dominican-Breeze.png'
 
 
 import Image1 from '@/assets/img/image1.png'

@@ -3,7 +3,6 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { CheckCircle, Award, MapPin } from "lucide-react"
 import JoseBg from '@/assets/img/jose-bg-landing.png'
-import Logo from '@/assets/img/LOGO-Dominican-Breeze.png'
 import { cn } from '@/lib/utils'
 import { buttonVariants } from '../ui/button'
 import Link from 'next/link'
