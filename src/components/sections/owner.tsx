@@ -22,11 +22,6 @@ const OwnerSection = () => {
                                     alt="Jose"
                                 />
                                 <h1 className=' mt-4 text-center text-[#e0ad10] text-4xl font-bold'>José Antonio Quiñones</h1>
-                                {/* <img
-                                    className="py-4"
-                                    src={Logo.src}
-                                    alt="Jose"
-                                /> */}
 
                             </div>
 
