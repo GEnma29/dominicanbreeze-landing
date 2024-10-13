@@ -24,8 +24,8 @@ const Timing = () => {
                 />
             </div>
             <div className='flex flex-col justify-center items-center p-4'>
-                <h1 className="text-center leading-10 text-3xl font-semibold leading-6 text-emerald-900">EL “TIMING” PARA DAR EL PRIMER PASO DE TU INVERSIÓN ES TU PUNTA DE LANZA</h1>
-                <h3 className=" text-center mt-6 mb-4 text-2xl font-semibold leading-6 text-emerald-900">¿Cuándo estarías listo(a) para dar el primer paso de tu inversión en la República Dominicana?</h3>
+                <h1 className="text-center leading-10 text-3xl leading-9 font-semibold  text-emerald-900">EL “TIMING” PARA DAR EL PRIMER PASO DE TU INVERSIÓN ES TU PUNTA DE LANZA</h1>
+                <h3 className=" text-center mt-6 mb-4 text-2xl leading-9 font-semibold  text-emerald-900">¿Cuándo estarías listo(a) para dar el primer paso de tu inversión en la República Dominicana?</h3>
                 <div className="space-y-5">
                     {Options.map((option) => {
                         return (

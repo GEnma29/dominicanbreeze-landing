@@ -64,7 +64,7 @@ const TableExamples = () => {
                         </TableRow>
                     </TableBody>
                     <TableCaption className="text-sm text-muted-foreground mb-4">
-                        Préstamos hipotecarios en dólares estadounidenses a una tasa de interés del 8.25% APR fijo durante el primer año. Pagos mensuales calculados en principal e interés. Seguros de vida y de propiedad serán aplicables dependiendo de factores tales como edad y término del préstamo hipotecario.
+                        Préstamos hipotecarios en dólares estadounidenses a una tasa de interés del 8.25% APR fijo durante el primer año y Loan to Value del 80% del precio de venta o tasación, el que sea menor. Pagos mensuales aproximados, calculados en principal e interés. Seguros de vida y de propiedad serán aplicables dependiendo de factores tales como edad y término del préstamo hipotecario.
                     </TableCaption>
                 </Table>
             </div>
@@ -74,7 +74,7 @@ const TableExamples = () => {
         <div className="overflow-x-auto mt-6">
             <Table className="w-full border-2  min-w-[640px]">
                 <TableCaption className="text-sm text-muted-foreground mb-4">
-                    Préstamos hipotecarios en dólares estadounidenses a una tasa de interés del 8.25% APR fijo durante el primer año. Pagos mensuales calculados en principal e interés. Seguros de vida y de propiedad serán aplicables dependiendo de factores tales como edad y término del préstamo hipotecario.
+                    Préstamos hipotecarios en dólares estadounidenses a una tasa de interés del 8.25% APR fijo durante el primer año y Loan to Value del 80% del precio de venta o tasación, el que sea menor. Pagos mensuales aproximados, calculados en principal e interés. Seguros de vida y de propiedad serán aplicables dependiendo de factores tales como edad y término del préstamo hipotecario.
                 </TableCaption>
                 <TableHeader>
                     <TableRow>

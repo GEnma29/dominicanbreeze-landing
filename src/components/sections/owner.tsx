@@ -14,14 +14,14 @@ const OwnerSection = () => {
             <div className="max-w-7xl mx-auto">
                 <Card className="overflow-hidden shadow-xl">
                     <div className="md:flex">
-                        <div className="md:w-1/3 bg-emerald-600 p-6 flex items-center justify-center">
+                        <div className="md:w-1/3 bg-emerald-600 p-6  border-8 rounded-lg border-white flex flex-col items-center justify-center">
                             <div className='flex flex-col justify-center items-center  mt-4'>
                                 <img
                                     className="rounded-full  border-4 border-white shadow-lg w-full h-[400px]  object-cover"
                                     src={JoseBg.src}
                                     alt="Jose"
                                 />
-                                <h1 className=' mt-4 text-center text-[#e0ad10] text-4xl font-bold'>José Antonio Quiñones</h1>
+                                <h1 className=' mt-4 text-center text-[#e0ad10] text-xl font-bold'>José Antonio Quiñones  REALTOR®</h1>
 
                             </div>
 
@@ -55,10 +55,10 @@ const OwnerSection = () => {
                             </CardContent>
                             <div className="flex mt-6 w-full justify-center ">
                                 <Link href={'/sinergy'} className={cn(buttonVariants({ variant: 'default' }), 'w-[220px] h-12')}>
-                                    Deseo continuar
+                                    Continuar
                                 </Link>
                                 <Link href={'/error'} className={cn(buttonVariants({ variant: 'secondary' }), 'w-[220px] h-12')}>
-                                    No continuar
+                                    Cancelar
                                 </Link>
                             </div>
                         </div>

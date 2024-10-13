@@ -36,7 +36,7 @@ export default function Description() {
                     <div>
                         <div className="border-b border-gray-200 pb-10">
                             {/* <h2 className="font-medium text-gray-500">Con la ubicación más céntrica y segura de toda la región con unidades listas para entrega</h2> */}
-                            <p className="mt-2 text-center text-3xl font-bold tracking-tight text-emerald-800 sm:text-4xl">Un exclusivo proyecto de villas de lujo en “Downtown Punta Cana”.</p>
+                            <p className="mt-6 text-center text-3xl font-bold tracking-tight text-emerald-800 sm:text-4xl">Un exclusivo proyecto de villas de lujo en “Downtown Punta Cana”.</p>
                         </div>
 
                         <ul className="mt-10 space-y-5  text-gray-500">
@@ -52,10 +52,10 @@ export default function Description() {
                             <h2 className='flex lg:text-2xl font-semibold'>¿Quieres conocer más?</h2>
                             <div className="flex mt-4 w-full gap-4 justify-center items-center w-full ">
                                 <Link href='/incentives' className={cn(buttonVariants({ variant: 'default' }), 'h-12  w-[135px]')}  >
-                                    Sí
+                                    Continuar
                                 </Link>
                                 <Link href={'/error'} className={cn(buttonVariants({ variant: 'secondary' }), 'h-12  w-[135px]')}  >
-                                    No
+                                    Cancelar
                                 </Link>
                             </div>
                         </div>

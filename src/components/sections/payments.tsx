@@ -25,7 +25,7 @@ export default function PaymentsSection() {
             <div className="mt-8 bg-gray-50 p-6 rounded-lg">
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">Información Importante sobre Financiamiento</h3>
                 <p className="text-gray-700 mb-2">
-                    Dado a que en el sistema financiero de la República Dominicana no se usan inversionistas o aseguradoras de mercados secundarios tales como Freddie Mac, Fannie Mae, Veteranos, Rural, FHA u otros, son las mismas instituciones financieras que con su solidez financiera otorgan los préstamos hipotecarios de sus propios fondos.
+                    Bullet  Dado a que en el sistema financiero de la República Dominicana no se usan inversionistas o aseguradoras de mercados secundarios tales como Freddie Mac, Fannie Mae, Veteranos, Rural, FHA u otros, son las mismas instituciones financieras que con su solidez  otorgan los préstamos hipotecarios de sus propios fondos.
                 </p>
                 <ul className="space-y-4 list-disc text-gray-700">
                     <li className="text-gray-700">

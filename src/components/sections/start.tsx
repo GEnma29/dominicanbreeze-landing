@@ -30,8 +30,8 @@ const Start: React.FC<StartProps> = ({
     question,
     image,
     greeting,
-    primaryButtonText = 'Sí',
-    secondaryButtonText = 'No',
+    primaryButtonText = 'Continuar',
+    secondaryButtonText = 'Cancelar',
     onSecondaryClick,
     isExternal = false,
 }) => {

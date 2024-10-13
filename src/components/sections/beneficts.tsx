@@ -11,27 +11,45 @@ export default function BenefictsSection() {
         <div className="bg-gradient-to-b from-emerald-50 to-white min-h-screen py-16 px-4 sm:px-6 lg:px-8">
             <div className="max-w-4xl mx-auto">
                 <Card className="overflow-hidden shadow-xl">
-                    <CardHeader className="bg-emerald-600 text-white text-center py-8">
-                        <CardTitle className="text-3xl font-bold mb-2">
-                            EL DESARROLLADOR PAGA TUS GASTOS DE HOTEL Y PASAJE
-                        </CardTitle>
-                        <div className="flex justify-center items-center space-x-2">
-                            <Plane className="h-8 w-8" />
-                            <span className="text-2xl font-semibold">+</span>
-                            <Hotel className="h-8 w-8" />
-                            <span className="text-2xl font-semibold">=</span>
-                            <Badge className="bg-white text-emerald-600 text-xl px-4 py-2">
-                                HASTA 2,000 USD
-                            </Badge>
+                    <CardHeader className="flex flex-row  text-center text-emerald-600 text-3xl font-bold mb-2">
+                        <div className="flex w-full flex-col justify-center items-center">
+                            <div className="flex flex-col justify-center items-center">
+                                <Image className='rounded-lg' src={Image1} alt="Luxury Development in Punta Cana" width={200} height={200} />
+                            </div>
+                            <div className="flex justify-center items-center h-full">
+                                <h2 className="flex text-2xl font-bold text-center text-gray-900 ">
+                                    ¡VIAJA Y CONOCE!
+                                </h2>
+                            </div>
+
+                            {/* <div className="flex justify-center items-center space-x-2">
+                                <Plane className="h-8 w-8" />
+                                <span className="text-2xl font-semibold">+</span>
+                                <Hotel className="h-8 w-8" />
+                                <span className="text-2xl font-semibold">=</span>
+                                <Badge className="bg-white text-emerald-600 text-xl px-4 py-2">
+                                    HASTA 2,000 USD
+                                </Badge>
+                            </div> */}
                         </div>
+                        <div className="flex w-full flex-col justify-center items-center">
+                            <h2 className="flex text-3xl font-bold text-center text-emerald-600 ">
+                                EL DESARROLLADOR PAGA TUS GASTOS DE HOTEL Y PASAJE
+                            </h2>
+                            <div className="flex mt-6 justify-center items-center space-x-2">
+                                <Plane className="h-8 w-8" />
+                                <span className="text-2xl font-semibold">+</span>
+                                <Hotel className="h-8 w-8" />
+                                <span className="text-2xl font-semibold">=</span>
+                                <Badge className="bg-white text-emerald-600 text-xl px-4 py-2">
+                                    HASTA 2,000 USD
+                                </Badge>
+                            </div>
+                        </div>
+
+
                     </CardHeader>
                     <CardContent className="p-8">
-                        <div className="flex flex-col justify-center items-center">
-                            <Image className='rounded-lg' src={Image1} alt="Luxury Development in Punta Cana" width={200} height={200} />
-                        </div>
-                        <h2 className="text-2xl font-bold text-center text-gray-900 mb-6">
-                            ¡VIAJA Y CONOCE!
-                        </h2>
                         <div className="grid gap-6">
                             {[
                                 "Recibirás un tour total de orientación.",
@@ -58,7 +76,7 @@ export default function BenefictsSection() {
                         </div>
                     </CardFooter>
                 </Card>
-                <div className="mt-8 bg-white p-6 rounded-lg shadow-md">
+                {/* <div className="mt-8 bg-white p-6 rounded-lg shadow-md">
                     <div className="flex items-center mb-4">
                         <MapPin className="h-6 w-6 text-blue-600 mr-3" />
                         <h3 className="text-xl font-semibold text-gray-900">Ubicación Privilegiada</h3>
@@ -75,7 +93,7 @@ export default function BenefictsSection() {
                     <p className="text-gray-700">
                         Los gastos de hotel y pasaje están sujetos a términos y condiciones. Nuestro Broker te proporcionará todos los detalles durante la presentación privada, asegurando total transparencia en esta increíble oferta.
                     </p>
-                </div>
+                </div> */}
             </div>
         </div>
     )

@@ -82,29 +82,6 @@ const ImageCollage = () => {
             <CarouselNext />
         </Carousel >
 
-        // <div className="grid grid-cols-2 grid-rows-2 gap-2 h-full">
-
-        //     {/* <Image
-        //         className="w-full h-full object-cover"
-        //         src={Image1}
-        //         alt="Luxury Development 1"
-        //     />
-        //     <Image
-        //         className="w-full h-full object-cover"
-        //         src={Image2}
-        //         alt="Luxury Development 2"
-        //     />
-        //     <Image
-        //         className="w-full h-full object-cover"
-        //         src={Image3}
-        //         alt="Luxury Development 3"
-        //     />
-        //     <Image
-        //         className="w-full h-full object-cover"
-        //         src={Image4}
-        //         alt="Luxury Development 4"
-        //     /> */}
-        // </div>
     )
 }
 
@@ -114,22 +91,7 @@ export default function InsectiveSeption() {
             <div className="max-w-7xl mx-auto">
                 <Card className="overflow-hidden shadow-xl">
                     <div className="md:flex">
-                        <div className="md:w-1/3  lg:py-0 bg-emerald-600 p-16 flex flex-col items-center justify-center">
-                            {/* <Image
-                                className="rounded-lg  w-full rotate-90 "
-                                sizes="(max-width: 768px) 100vw, 50vw"
-                                objectFit="cover"
-                                src={MasterPlan}
-                                alt="Luxury Development in Punta Cana"
-                            /> */}
-                            {/* <Image
-                                className="rounded-lg  w-full py-6 "
-                                sizes="(max-width: 768px) 100vw, 50vw"
-                                objectFit="cover"
-                                src={Logo}
-                                alt="Luxury Development in Punta Cana"
-                            /> */}
-
+                        <div className="md:w-1/3 m-2 lg:py-0 bg-emerald-600 p-16 flex flex-col items-center justify-center">
                             <ImageCollage />
                         </div>
                         <div className="md:w-2/3 p-8">
@@ -170,10 +132,10 @@ export default function InsectiveSeption() {
                                 </p>
                                 <div className="mt-8 gap-2 text-center">
                                     <Link className={cn(buttonVariants({ variant: 'default' }), 'w-[220px] h-12 mb-3 lg:mb-0')} href={'/owner'}>
-                                        Deseo continuar
+                                        Continuar
                                     </Link>
                                     <Link className={cn(buttonVariants({ variant: 'secondary' }), 'w-[220px] h-12')} href={'/error'}>
-                                        No deseeo continuar
+                                        Cancelar
                                     </Link>
                                 </div>
                             </CardContent>

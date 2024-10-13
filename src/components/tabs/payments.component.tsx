@@ -42,11 +42,11 @@ export function TabsPayment() {
                         <ul className="space-y-4">
                             <li className="flex items-start">
                                 <Building className="h-6 w-6 text-green-600 mr-3 flex-shrink-0 mt-1" />
-                                <p className="text-gray-700">Debes solicitar en un banco local</p>
+                                <p className="text-gray-700">Debes solicitar en un banco local, Nuestro Broker te ayudará y te acompañará durante todo el proceso.</p>
                             </li>
                             <li className="flex items-start">
                                 <Calendar className="h-6 w-6 text-green-600 mr-3 flex-shrink-0 mt-1" />
-                                <p className="text-gray-700">En 30 días de la fecha de separación será tu cierre y entrega de tu unidad</p>
+                                <p className="text-gray-700">En 30 días de la fecha de separación será tu cierre y entrega de tu unidad.</p>
                             </li>
                             <li className="flex items-start">
                                 <DollarSign className="h-6 w-6 text-green-600 mr-3 flex-shrink-0 mt-1" />

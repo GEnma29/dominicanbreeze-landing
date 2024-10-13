@@ -17,10 +17,10 @@ const Examples = () => {
                 <h3 className='font-semibold text-center text-xl'>¿Deseas Continuar?</h3>
                 <div className="flex mt-4 w-full gap-4 justify-center items-center w-full ">
                     <Link href={'/decision'} className={cn(buttonVariants({ variant: 'default' }), 'h-12  w-[135px]')}  >
-                        Si
+                        Continuar
                     </Link>
                     <Link href={'/error'} className={cn(buttonVariants({ variant: 'secondary' }), 'h-12  w-[135px]')}  >
-                        No
+                        Cancelar
                     </Link>
                 </div>
             </div>
