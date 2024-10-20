@@ -21,16 +21,6 @@ export default function BenefictsSection() {
                                     ¡VIAJA Y CONOCE!
                                 </h2>
                             </div>
-
-                            {/* <div className="flex justify-center items-center space-x-2">
-                                <Plane className="h-8 w-8" />
-                                <span className="text-2xl font-semibold">+</span>
-                                <Hotel className="h-8 w-8" />
-                                <span className="text-2xl font-semibold">=</span>
-                                <Badge className="bg-white text-emerald-600 text-xl px-4 py-2">
-                                    HASTA 2,000 USD
-                                </Badge>
-                            </div> */}
                         </div>
                         <div className="flex w-full flex-col justify-center items-center">
                             <h2 className="flex text-3xl font-bold text-center text-emerald-600 ">

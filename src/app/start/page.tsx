@@ -1,6 +1,6 @@
 import React from 'react'
 import StartSection from '@/components/sections/start'
-import StartImage from '@/assets/img/centro-punta-cana.png'
+import StartImage from '@/assets/img/project-place.png'
 const Start = () => {
     return (
         <StartSection

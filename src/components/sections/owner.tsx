@@ -10,18 +10,18 @@ import Link from 'next/link'
 
 const OwnerSection = () => {
     return (
-        <div className="bg-gradient-to-b from-emerald-50 to-white min-h-screen py-16 px-4 sm:px-6 lg:px-8">
+        <div className=" min-h-screen py-16 px-4 sm:px-6 lg:px-8">
             <div className="max-w-7xl mx-auto">
                 <Card className="overflow-hidden shadow-xl">
-                    <div className="md:flex">
-                        <div className="md:w-1/3 bg-emerald-600 p-6  border-8 rounded-lg border-white flex flex-col items-center justify-center">
+                    <div className="bg-white py-16 px-8  md:flex">
+                        <div className="md:w-1/3 bg-emerald-600 p-6 rounded-lg  rounded-lgflex flex-col items-center justify-center">
                             <div className='flex flex-col justify-center items-center  mt-4'>
                                 <img
-                                    className="rounded-full  border-4 border-white shadow-lg w-full h-[400px]  object-cover"
+                                    className="rounded-full  border-4 border-white shadow-lg w-full h-[600px]  object-cover"
                                     src={JoseBg.src}
                                     alt="Jose"
                                 />
-                                <h1 className=' mt-4 text-center text-[#e0ad10] text-xl font-bold'>José Antonio Quiñones  REALTOR®</h1>
+                                <h1 className=' mt-4 text-center text-[#e0ad10] text-xl font-bold'>José Antonio Quiñones, REALTOR®</h1>
 
                             </div>
 

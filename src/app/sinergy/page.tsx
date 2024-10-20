@@ -1,6 +1,6 @@
 import React from 'react'
 import StartSection from '@/components/sections/start'
-import Sinergy from '@/assets/img/sinergy.jpg'
+import Sinergy from '@/assets/img/sinergy-2.jpg'
 const SinergyPage = () => {
     return (
         <StartSection

@@ -25,7 +25,7 @@ import Image6 from '@/assets/img/image6.png'
 const ImageCollage = () => {
     return (
         <Carousel className="" >
-            <CarouselContent className=" lg:grid lg:grid-cols-2 lg:grid-rows-2 lg:gap-2 h-full">
+            <CarouselContent className=" lg:grid lg:grid-cols-2 lg:grid-rows-3 lg:gap-2 h-full">
                 <CarouselItem className="flex rounded-lg">
                     <Image
                         className="w-full h-full rounded-lg object-cover"
@@ -87,11 +87,11 @@ const ImageCollage = () => {
 
 export default function InsectiveSeption() {
     return (
-        <div className="bg-gradient-to-b from-green-50 to-white min-h-screen py-16 px-4 sm:px-6 lg:px-8">
+        <div className=" min-h-screen py-16 px-4 sm:px-6 lg:px-8">
             <div className="max-w-7xl mx-auto">
                 <Card className="overflow-hidden shadow-xl">
-                    <div className="md:flex">
-                        <div className="md:w-1/3 m-2 lg:py-0 bg-emerald-600 p-16 flex flex-col items-center justify-center">
+                    <div className="bg-white py-16 px-8  md:flex">
+                        <div className="md:w-1/3 m-2 lg:py-0 bg-emerald-600 p-8 rounded-lg flex flex-col items-center justify-center">
                             <ImageCollage />
                         </div>
                         <div className="md:w-2/3 p-8">

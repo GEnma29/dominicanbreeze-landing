@@ -1,6 +1,6 @@
 
 import StartSection from '@/components/sections/start'
-import StartImage from '@/assets/img/centro-punta-cana.png'
+import StartImage from '@/assets/img/project-place.png'
 
 export default function Home() {
   return (
