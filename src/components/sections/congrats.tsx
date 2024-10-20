@@ -7,7 +7,7 @@ import Image1 from '@/assets/img/globs.png'
 import Image2 from '@/assets/img/Zoom2.png'
 const CongratsSection = () => {
     return (
-        <div className="flex mb-3 bg-white flex-col justify-center items-center rounded-lg px-4 py-5 sm:p-6">
+        <div className="flex mb-3 max-w-7xl min-h-[75vh] bg-white flex-col justify-center items-center rounded-lg px-4 py-5 sm:p-6">
             <h1 className="text-center leading-10 text-3xl font-semibold leading-6 text-emerald-900">🎊 ¡FELICITACIONES! 🎊</h1>
             <h3 className="mt-3  py-2 text-center text-xl lg:text-2xl font-semibold leading-6 text-emerald-900">HAS CUALIFICADO PARA LA PRESENTACIÓN PRIVADA CON NUESTRO BROKER</h3>
             <h3 className="mt-3  py-2 text-center text-xl lg:text-2xl font-semibold leading-6 text-emerald-900"> Ya solo queda este gran paso para tu inversión en la República Dominicana</h3>

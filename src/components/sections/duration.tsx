@@ -9,8 +9,8 @@ import Zoom from '@/assets/img/zoom.png'
 
 const DurationSection = () => {
     return (
-        <div className='flex flex-col md:flex-row mb-3 bg-white justify-center items-center rounded-lg px-4 py-5 sm:p-6'>
-            <div className="flex bg-white mb-3 flex-col justify-center items-center rounded-lg px-4 py-5 sm:p-6">
+        <div className='flex flex-col md:flex-row mb-3 bg-white max-w-7xl  justify-center items-center rounded-lg  px-4 py-5 sm:p-6'>
+            <div className="flex  bg-white mb-3 flex-col justify-center items-center rounded-lg px-4 py-16">
                 <h1 className="text-center leading-10 text-3xl font-semibold leading-6 text-emerald-900">DURACIÓN DE 1 HORA Y 30 MINUTOS ⌚
                 </h1>
                 <div className="mt-4 lg:mt-2 max-w-7xl text-sm text-gray-500">

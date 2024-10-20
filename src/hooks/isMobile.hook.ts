@@ -1,17 +1,23 @@
-import { useState, useCallback } from 'react';
+import { useState, useEffect } from 'react';
 
-function useExecuteOnSecondCall(callback: () => void) {
-  const [hasBeenCalled, setHasBeenCalled] = useState(false);
+export function useMobileDetect() {
+  const [isMobile, setIsMobile] = useState(false);
 
-  const execute = useCallback(() => {
-    if (hasBeenCalled) {
-      callback();
-    } else {
-      setHasBeenCalled(true);
-    }
-  }, [callback, hasBeenCalled]);
+  useEffect(() => {
+    const mediaQuery = window.matchMedia('(max-width: 768px)'); // Adjust the breakpoint as needed
 
-  return execute;
+    const handleMediaQueryChange = () => {
+      setIsMobile(mediaQuery.matches);
+    };
+
+    mediaQuery.addEventListener('change', handleMediaQueryChange);
+
+    handleMediaQueryChange();
+
+    return () => {
+      mediaQuery.removeEventListener('change', handleMediaQueryChange);
+    };
+  }, []);
+
+  return isMobile;
 }
-
-export default useExecuteOnSecondCall;

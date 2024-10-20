@@ -6,7 +6,7 @@ import Image from "next/image"
 import Image1 from '@/assets/img/payment.png'
 export default function PaymentsSection() {
     return (
-        <div className="flex bg-white flex-col justify-center items-center p-4 rounded-lg">
+        <div className="flex bg-white max-w-7xl flex-col justify-center items-center p-4 rounded-lg">
             <div className="flex items-center mb-4">
                 <h1 className="text-3xl text-emerald-600 font-bold">FORMA DE PAGO</h1>
             </div>
@@ -24,10 +24,10 @@ export default function PaymentsSection() {
             </div>
             <div className="mt-8 bg-gray-50 p-6 rounded-lg">
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">Información Importante sobre Financiamiento</h3>
-                <p className="text-gray-700 mb-2">
-                    Bullet  Dado a que en el sistema financiero de la República Dominicana no se usan inversionistas o aseguradoras de mercados secundarios tales como Freddie Mac, Fannie Mae, Veteranos, Rural, FHA u otros, son las mismas instituciones financieras que con su solidez  otorgan los préstamos hipotecarios de sus propios fondos.
-                </p>
                 <ul className="space-y-4 list-disc text-gray-700">
+                    <li className="text-gray-700">
+                        Dado a que en el sistema financiero de la República Dominicana no se usan inversionistas o aseguradoras de mercados secundarios tales como Freddie Mac, Fannie Mae, Veteranos, Rural, FHA u otros, son las mismas instituciones financieras que con su solidez  otorgan los préstamos hipotecarios de sus propios fondos.
+                    </li>
                     <li className="text-gray-700">
                         A tales efectos, las tasas de interés en préstamos hipotecarios son más altas de lo que pudiéramos estar acostumbrados en nuestros países aunque estas sean enteramente manejables comenzando en un 8.25% APR con hasta 20 años.
                     </li>

@@ -1,6 +1,6 @@
 'use client';
 import React, { useRef } from 'react';
-import useExecuteOnSecondCall from '@/hooks/isMobile.hook';
+import useExecuteOnSecondCall from '@/hooks/isSecoundTime.hook';
 import { useRouter } from 'next/navigation'
 
 const ClientFromPage: React.FC = () => {

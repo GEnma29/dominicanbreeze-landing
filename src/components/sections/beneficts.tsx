@@ -8,22 +8,22 @@ import Image from "next/image"
 import Image1 from '@/assets/img/flyBuy.png'
 export default function BenefictsSection() {
     return (
-        <div className="bg-gradient-to-b from-emerald-50 to-white min-h-screen py-16 px-4 sm:px-6 lg:px-8">
+        <div className="py-16 px-4 sm:px-6 lg:px-8">
             <div className="max-w-4xl mx-auto">
                 <Card className="overflow-hidden shadow-xl">
-                    <CardHeader className="flex flex-row  text-center text-emerald-600 text-3xl font-bold mb-2">
+                    <CardHeader className="flex flex-row  text-center text-emerald-600 text-xl lg:text-3xl font-bold mb-2">
                         <div className="flex w-full flex-col justify-center items-center">
                             <div className="flex flex-col justify-center items-center">
                                 <Image className='rounded-lg' src={Image1} alt="Luxury Development in Punta Cana" width={200} height={200} />
                             </div>
                             <div className="flex justify-center items-center h-full">
-                                <h2 className="flex text-2xl font-bold text-center text-gray-900 ">
+                                <h2 className="flex text-lg lg:text-2xl font-bold text-center text-gray-900 ">
                                     ¡VIAJA Y CONOCE!
                                 </h2>
                             </div>
                         </div>
                         <div className="flex w-full flex-col justify-center items-center">
-                            <h2 className="flex text-3xl font-bold text-center text-emerald-600 ">
+                            <h2 className="flex text-lg lg:text-3xl font-bold text-center text-emerald-600 ">
                                 EL DESARROLLADOR PAGA TUS GASTOS DE HOTEL Y PASAJE
                             </h2>
                             <div className="flex mt-6 justify-center items-center space-x-2">
@@ -66,24 +66,6 @@ export default function BenefictsSection() {
                         </div>
                     </CardFooter>
                 </Card>
-                {/* <div className="mt-8 bg-white p-6 rounded-lg shadow-md">
-                    <div className="flex items-center mb-4">
-                        <MapPin className="h-6 w-6 text-blue-600 mr-3" />
-                        <h3 className="text-xl font-semibold text-gray-900">Ubicación Privilegiada</h3>
-                    </div>
-                    <p className="text-gray-700">
-                        Descubre por qué nuestra ubicación en el Jetset de Punta Cana es inigualable. Experimenta de primera mano el lujo y la exclusividad que te rodearán en tu futura inversión.
-                    </p>
-                </div>
-                <div className="mt-8 bg-white p-6 rounded-lg shadow-md">
-                    <div className="flex items-center mb-4">
-                        <Info className="h-6 w-6 text-blue-600 mr-3" />
-                        <h3 className="text-xl font-semibold text-gray-900">Información Importante</h3>
-                    </div>
-                    <p className="text-gray-700">
-                        Los gastos de hotel y pasaje están sujetos a términos y condiciones. Nuestro Broker te proporcionará todos los detalles durante la presentación privada, asegurando total transparencia en esta increíble oferta.
-                    </p>
-                </div> */}
             </div>
         </div>
     )

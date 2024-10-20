@@ -62,17 +62,17 @@ const Start: React.FC<StartProps> = ({
             )}>
                 <div className="mx-auto max-w-4xl text-center">
                     <h2 className="text-sm font-semibold leading-7 text-emerald-600">{greeting}</h2>
-                    <p className="mt-2 text-center text-4xl font-bold tracking-tight text-emerald-600 sm:text-2xl">
+                    <p className="mt-2 text-center text-lg lg:text-4xl font-bold tracking-tight text-emerald-600 sm:text-2xl">
                         {title}
                     </p>
                 </div>
-                <p className="mx-auto mt-6 max-w-2xl text-center text-lg leading-8 text-smerald-300">
+                <p className="mx-auto mt-6 max-w-2xl text-center text-sm lg:text-lg leading-8 text-smerald-300">
                     {subtitle}
                 </p>
-                <p className='text-lg text-center text-lg font-semibold text-gray-700 mb-6'>
+                <p className='text-lg text-center text-sm lg:text-lg font-semibold text-gray-700 mb-6'>
                     {content}
                 </p>
-                <p className='text-lg text-center text-lg font-semibold text-gray-700 mb-6'>
+                <p className='text-lg text-center text-sm lg:text-lg font-semibold text-gray-700 mb-6'>
                     {question}
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center items-center w-full">

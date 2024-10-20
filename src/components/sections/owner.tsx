@@ -10,14 +10,14 @@ import Link from 'next/link'
 
 const OwnerSection = () => {
     return (
-        <div className=" min-h-screen py-16 px-4 sm:px-6 lg:px-8">
-            <div className="max-w-7xl mx-auto">
+        <div className="w-full flex px-4 sm:px-6 lg:px-8">
+            <div className="flex w-full lg:max-w-7xl mx-auto">
                 <Card className="overflow-hidden shadow-xl">
                     <div className="bg-white py-16 px-8  md:flex">
-                        <div className="md:w-1/3 bg-emerald-600 p-6 rounded-lg  rounded-lgflex flex-col items-center justify-center">
-                            <div className='flex flex-col justify-center items-center  mt-4'>
+                        <div className="md:w-1/3 bg-emerald-600 p-4 lg:p-6 rounded-lg  rounded-lgflex flex-col items-center justify-center">
+                            <div className='w-full flex flex-col justify-center items-center  mt-4'>
                                 <img
-                                    className="rounded-full  border-4 border-white shadow-lg w-full h-[600px]  object-cover"
+                                    className="rounded-full  border-4 border-white shadow-lg w-full h-200px lg:h-[600px]  object-cover"
                                     src={JoseBg.src}
                                     alt="Jose"
                                 />
@@ -27,9 +27,9 @@ const OwnerSection = () => {
 
 
                         </div>
-                        <div className="md:w-2/3 p-8">
+                        <div className="md:w-2/3 p-4 lg:p-8">
                             <CardHeader>
-                                <CardTitle className="text-3xl text-center font-bold text-gray-900 mb-2">
+                                <CardTitle className="text-lg lg:text-3xl text-center font-bold text-gray-900 mb-2">
                                     ¿Sabías que nuestro Broker/Owner también es original de Puerto Rico, pero residente de la República Dominicana?
                                 </CardTitle>
                                 <Badge className="bg-emerald-600 text-white">33 años de experiencia</Badge>

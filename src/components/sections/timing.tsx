@@ -13,7 +13,7 @@ const Options = [
 const Timing = () => {
     const [checked, setChecked] = useState<string>('')
     return (
-        <div className="flex flex-col lg:flex-row mb-3 bg-white  justify-center items-center rounded-lg  px-4 py-5 sm:p-6">
+        <div className="flex lg:max-w-7xl flex-col lg:flex-row mb-3 bg-white  justify-center items-center rounded-lg  px-4 py-5 sm:p-6">
             <div className='flex w-full h-full flex-col justify-center items-center p-4'>
                 <Image
                     src={Calendary}

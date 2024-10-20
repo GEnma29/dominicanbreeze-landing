@@ -13,7 +13,8 @@ const CandelyPage = () => {
     });
     return (
         <div className="w-full p-4 overflow-y-hidden">
-            <InlineWidget url="https://calendly.com/dominicanbreeze/bv-sjl-punta-cana" />
+            <InlineWidget
+                url="https://calendly.com/dominicanbreeze/bv-sjl-punta-cana" />
         </div>
 
     )

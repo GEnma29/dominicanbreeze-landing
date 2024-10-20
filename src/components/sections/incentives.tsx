@@ -87,7 +87,7 @@ const ImageCollage = () => {
 
 export default function InsectiveSeption() {
     return (
-        <div className=" min-h-screen py-16 px-4 sm:px-6 lg:px-8">
+        <div className=" min-h-screen px-4 sm:px-6 lg:px-8">
             <div className="max-w-7xl mx-auto">
                 <Card className="overflow-hidden shadow-xl">
                     <div className="bg-white py-16 px-8  md:flex">
