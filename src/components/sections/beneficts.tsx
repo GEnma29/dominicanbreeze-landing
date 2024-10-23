@@ -8,7 +8,7 @@ import Image from "next/image"
 import Image1 from '@/assets/img/flyBuy.png'
 export default function BenefictsSection() {
     return (
-        <div className="py-16 px-4 sm:px-6 lg:px-8">
+        <div className="pb-16 px-4 sm:px-6 lg:px-8">
             <div className="max-w-4xl mx-auto">
                 <Card className="overflow-hidden shadow-xl">
                     <CardHeader className="flex flex-row  text-center text-emerald-600 text-xl lg:text-3xl font-bold mb-2">
