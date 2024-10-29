@@ -69,7 +69,7 @@ const EndPage = () => {
     // const LOGOS_PER_SLIDE = isMobile ? 1 : 3
     // const TOTAL_SLIDES = Math.ceil(logos.length / LOGOS_PER_SLIDE)
     return (
-        <div className=" w-full text-white p-4 flex flex-col items-center justify-center">
+        <div className="min-h-screen w-full text-white p-4 flex flex-col items-center justify-center">
             <h1 className="text-2xl md:text-4xl font-bold text-yellow-400 text-center mb-2">
                 Felicitaciones 🎉
             </h1>

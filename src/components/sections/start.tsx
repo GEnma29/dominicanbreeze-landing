@@ -41,7 +41,7 @@ const Start: React.FC<StartProps> = ({
         <div className="flex px-4 bg-white lg:h-[66vh] rounded-lg flex-col md:flex-row items-center justify-center py-16 md:p-8 lg:py-16 lg:px-8 lg:max-w-7xl mx-auto">
             {image && (imagePosition === 'left' || imagePosition === 'top') && (
                 <div className={cn(
-                    "w-full md:w-1/2 mb-4 md:mb-0",
+                    "w-full px-2 md:w-1/2 mb-4 md:mb-0",
                     imagePosition === 'top' ? "md:w-full md:mb-4" : "md:mr-6"
                 )}>
                     <Image
