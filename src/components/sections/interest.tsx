@@ -20,7 +20,7 @@ export default function DeterminationForm() {
 
                     <h1 className="text-center leading-10 text-3xl font-semibold text-emerald-900">TU DETERMINACIÓN ES EL PUNTO DE PARTIDA</h1>
                     <h3 className="mt-3 text-center text-2xl font-semibold text-emerald-900">En una escala de 0 al 10, siendo el 0 la menor determinación y el 10 la mayor?</h3>
-                    <p className='mt-6 font-bold text-esmerald-900'>¿Cuán determinado(a) estás en hacer tu inversión en la República Dominicana?</p>
+                    <p className='mt-6 font-bold text-center text-esmerald-900'>¿Cuán determinado(a) estás en hacer tu inversión en la República Dominicana?</p>
                     <div className="mt-2 max-w-sm text-sm text-gray-500">
                         <div className='flex w-full flex-col  flex-wrap lg:flex-nowrap gap-4 justify-center items-center w-full'>
                             <div className="flex mt-6 flex-wrap  gap-4 justify-center items-center w-full">

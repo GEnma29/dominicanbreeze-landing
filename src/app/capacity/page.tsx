@@ -8,6 +8,8 @@ const CapacityPage = () => {
             subtitle='¿Cuentas con fondos reservados para realizar una inversión en la República Dominicana?'
             content=''
             href='/interest'
+            primaryButtonText='Si'
+            secondaryButtonText='No'
             image={{
                 src: Capacity.src,
                 alt: "Imagen de bienvenida de Dominican Breeze International Realty",

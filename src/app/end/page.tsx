@@ -18,9 +18,8 @@ import Image3 from "@/assets/img/logo-3-min.png"
 import Image4 from "@/assets/img/logo-4-min.png"
 import Image5 from "@/assets/img/logo-5-min.png"
 import Image6 from "@/assets/img/logo-6-min.png"
-import Image7 from "@/assets/img/logo-7-min.png"
+import Image7 from "@/assets/img/cap.png"
 import Image8 from "@/assets/img/logo-8.png"
-import Image9 from "@/assets/img/logo-9-min.png"
 import Image10 from "@/assets/img/logo-10.png"
 import Image11 from "@/assets/img/logo-11.png"
 import Image12 from "@/assets/img/logo-12.png"
@@ -41,14 +40,12 @@ const EndPage = () => {
         { src: Image6.src, alt: 'logo-6', width: Image6.width, height: Image6.height },
         { src: Image7.src, alt: 'logo-7', width: Image7.width, height: Image7.height },
         { src: Image8.src, alt: 'logo-8', width: Image8.width, height: Image8.height },
-        { src: Image9.src, alt: 'logo-9', width: Image9.width, height: Image9.height },
         { src: Image10.src, alt: 'logo-10', width: Image10.width, height: Image10.height },
         { src: Image11.src, alt: 'logo-11', width: Image11.width, height: Image11.height },
         { src: Image12.src, alt: 'logo-12', width: Image12.width, height: Image12.height },
         { src: Image13.src, alt: 'logo-13', width: Image13.width, height: Image13.height },
         { src: Image14.src, alt: 'logo-14', width: Image14.width, height: Image14.height },
     ]
-    console.log("logos", logos)
 
     const nextSlide = () => {
         setCurrentIndex((prevIndex) => (prevIndex + 1) % logos.length)
@@ -69,7 +66,7 @@ const EndPage = () => {
     // const LOGOS_PER_SLIDE = isMobile ? 1 : 3
     // const TOTAL_SLIDES = Math.ceil(logos.length / LOGOS_PER_SLIDE)
     return (
-        <div className="min-h-screen w-full text-white p-4 flex flex-col items-center justify-center">
+        <div className=" w-full text-white p-4 flex flex-col items-center justify-center">
             <h1 className="text-2xl md:text-4xl font-bold text-yellow-400 text-center mb-2">
                 Felicitaciones 🎉
             </h1>
@@ -100,7 +97,7 @@ const EndPage = () => {
                                         src={logo.src}
                                         alt={logo.alt}
                                         fill
-                                        className='p-2'
+                                        className={`p-2 ${index >= 5 && index <= 7 ? 'scale-125' : ''}`}
                                         style={{ objectFit: 'contain' }}
                                         sizes="(max-width: 768px) 100vw, 33vw"
                                     />
