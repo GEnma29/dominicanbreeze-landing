@@ -61,8 +61,8 @@ const EndPage = () => {
     }, [currentIndex])
 
     const isMobile = useMobileDetect();
-    const YOUTUBE_DEFAULT_HEIGHT = isMobile ? 280 : 625;
-    const YOUTUBE_DEFAULT_WIDTH = isMobile ? 340 : 960;
+    const YOUTUBE_DEFAULT_HEIGHT = isMobile ? 280 : 325;
+    const YOUTUBE_DEFAULT_WIDTH = isMobile ? 340 : 325;
     // const LOGOS_PER_SLIDE = isMobile ? 1 : 3
     // const TOTAL_SLIDES = Math.ceil(logos.length / LOGOS_PER_SLIDE)
     return (
@@ -71,7 +71,7 @@ const EndPage = () => {
                 Felicitaciones 🎉
             </h1>
             <h2 className="text-lg md:text-xl text-center mb-6">
-                ¡Felicidades! Has completado el proceso.
+                Has completado el proceso.
             </h2>
             <div className="flex items-center justify-center">
                 <YouTubeEmbed url="https://youtu.be/fNyR8H1HvRk" width={YOUTUBE_DEFAULT_WIDTH} height={YOUTUBE_DEFAULT_HEIGHT} />
@@ -92,7 +92,7 @@ const EndPage = () => {
                     <CarouselContent className="-ml-2 md:-ml-4">
                         {logos.map((logo, index) => (
                             <CarouselItem key={index} className="pl-2 md:pl-4 basis-full md:basis-1/3">
-                                <Card className="w-full h-24 md:h-32 relative bg-white/10 p-4 overflow-hidden">
+                                <Card className="w-full h-24 md:h-16 relative bg-white/10 p-4 overflow-hidden">
                                     <Image
                                         src={logo.src}
                                         alt={logo.alt}
